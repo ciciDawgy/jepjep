@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Jeopardy</title>
+</head>
+<body>
+      <div class="grid-container">
+            <div class="grid-item head">sports</div>
+            <div class="grid-item head">dogs</div>
+            <div class="grid-item head">cats</div>  
+            <div class="grid-item head">supers</div>
+            <div class="grid-item head">history</div>
+            <div class="grid-item head">music</div>  
+            <div class="grid-item">$200</div>
+            <div class="grid-item">$200</div>
+            <div class="grid-item">$200</div>  
+            <div class="grid-item">$200</div>
+            <div class="grid-item">$200</div>
+            <div class="grid-item">$200</div> 
+            <div class="grid-item">$400</div>
+            <div class="grid-item">$400</div>
+            <div class="grid-item">$400</div> 
+            <div class="grid-item">$400</div>
+            <div class="grid-item">$400</div>
+            <div class="grid-item">$400</div> 
+            <div class="grid-item">$600</div>
+            <div class="grid-item">$600</div>
+            <div class="grid-item">$600</div> 
+            <div class="grid-item">$600</div>
+            <div class="grid-item">$600</div>
+            <div class="grid-item">$600</div> 
+            <div class="grid-item">$800</div>
+            <div class="grid-item">$800</div>
+            <div class="grid-item">$800</div> 
+            <div class="grid-item">$800</div>
+            <div class="grid-item">$800</div>
+            <div class="grid-item">$800</div> 
+            <div class="grid-item">$1000</div>
+            <div class="grid-item">$1000</div>
+            <div class="grid-item">$1000</div> 
+            <div class="grid-item">$1000</div>
+            <div class="grid-item">$1000</div>
+            <div class="grid-item">$1000</div> 
+        </div>
+        
+        <h2 class="score">SCORE: <span class="score"></span></h2> 
+
+         <!--<div class="modalBackDrop">
+           <div class="modal animate">
+             <div class="modalInner">
+                <div class="front">
+                    <i class="fa-solid fa-x"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, recusandae!</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  <div class="back">
+                      <form action="/action_page.php">
+                          <input type="radio" id="html" name="fav_language" value="HTML">
+                          <label for="html">HTML</label><br>
+                          <input type="radio" id="css" name="fav_language" value="CSS">
+                          <label for="css">CSS</label><br>
+                          <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                          <label for="javascript">JavaScript</label>   
+                      </form> 
+                      <i class="fa-solid fa-arrow-right"></i>
+                      <i class="fa-solid fa-x"></i>
+                  </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!--<div class="modal animate modalBackDrop">
+            <div class="modalInner">
+              <div class="front">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolorem esse sint?</p>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+              <div class="back">
+                 <ul>
+                    <li></li>
+                 </ul>
+                <i class="fa-solid fa-arrow-right"></i>
+                <i class="fa-solid fa-x"></i>
+              </div>
+            </div>
+          </div>
+         <h2 class="score">SCORE: <span class="score"></span></h2> -->
+
+         
+         <div class="modalBackDrop">
+          <div class="modal animate">
+             <div class="modalContent">
+                   <div class="front">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolorem esse sint?</p>
+                      <i class="fa-solid fa-x"></i>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                   <div class="back">
+                      <div class="quiz-container" id="quiz">
+                         <div class="quiz-header">
+                            <h2 id="question">Question Text</h2>
+                            <ul>
+                               <li>
+                                  <input type="radio" name="answer" id="a" class="answer">
+                                  <label for="a" id="a_text">Question</label>
+                               </li>
+                  
+                               <li>
+                                  <input type="radio" name="answer" id="b" class="answer">
+                                  <label for="b" id="b_text">Question</label>
+                               </li>
+                  
+                               <li>
+                                  <input type="radio" name="answer" id="c" class="answer">
+                                  <label for="c" id="c_text">Question</label>
+                               </li>
+                  
+                               <li>
+                                  <input type="radio" name="answer" id="d" class="answer">
+                                  <label for="d" id="d_text">Question</label>
+                               </li>
+                            </ul>
+                         </div>
+                          <button id="submit">Submit</button>
+                      </div>
+                         <i class="fa-solid fa-x"></i>
+                         <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                   </div>
+             </div>
+        </div>
+
+
+
+      
+
+   <!--<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn5BeYdzMkmSEqI-leTrwAFU0n2sTeUBytKbbM4xC3-TgImrNc9WnzxNne8QSgfEY0Tp8&usqp=CAU" class="ken" alt="ken"> -->
+
+    
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
